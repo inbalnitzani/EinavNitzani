@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --primary-color: #E14434;
 }
 
 a {
@@ -93,4 +94,55 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+body {
+  background-color: #FFD8D8;
+}
+
+.primary-text {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: #ffffff !important;
+
+}
+
+/* Films dropdown: vertical layout and spacing */
+nav div > a.primary-text {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  text-align: left;
+  
+}
+/* nav div > a.primary-text:hover {
+  background: #fbe7e3;
+} */
+
+.films-dropdown-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.films-dropdown-link:hover {
+  font-weight: bold;
+  color: #ED3500;
+}
+
+nav .primary-text:hover {
+  font-weight: bold;
+  color: #ED3500 !important;
+
+}
+
+nav .films-dropdown-link:hover {
+  font-weight: bold;
+  background: none !important;
+  color: #ED3500;
+
 }
